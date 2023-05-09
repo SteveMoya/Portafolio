@@ -4,30 +4,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Steve Moya - Personal Web Personal, Este es mi portafolio con mucho amor y dedicacion" />
-	<meta name="keywords" content="blog, business card, creative, creative portfolio, cv, online resume, personal, portfolio, professional cv, responsive portfolio, resume, vcard" />
-	<meta name="author" content="Steve Moya Cepeda" />
     <title>Steve Moya - Personal Portfolio Web</title>
+    
+    
 
   <!--favicon-img--> 
-   <link rel="icon" type="image/png" href="/images/reshot-icon-funnel-money-SGKD82ZU7E.svg">
+   <link rel="icon" type="image/png" href="/images/logo.svg">
+   
    <!--main css file should not be removed -->
     <link rel="stylesheet" href="css/index.css">
     <!--main css file-->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js"></script>
-
-    <script src="https://www.google.com/recaptcha/api.js?render=6LfkSeYlAAAAACB8HqXqyHpTzyoL4bXPbXUjq56k"></script>
-
-    <script>
-        function onClick(e) {
-          e.preventDefault();
-          grecaptcha.ready(function() {
-            grecaptcha.execute('6LfkSeYlAAAAACB8HqXqyHpTzyoL4bXPbXUjq56k', {action: 'submit'}).then(function(token) {
-                // Add your logic to submit to your backend server here.
-            });
-          });
-        }
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js" defer></script>
     </script>
+    <script src="js/jquery.min.js" defer></script>
+    <script src="js/particles.js"></script>
+    <script src="js/particles.min.js"></script>
+    <script src="js/index.js"defer ></script>
     <script type="text/javascript">
         (function(c,l,a,r,i,t,y){
             c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
@@ -35,16 +27,11 @@
             y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
         })(window, document, "clarity", "script", "gzeqzb8nop");
     </script>
+    <meta name="description" content="Steve Moya - Personal Web Personal, Este es mi portafolio con mucho amor y dedicacion" />
+	<meta name="keywords" content="blog, business card, creative, creative portfolio, cv, online resume, personal, portfolio, professional cv, responsive portfolio, resume, vcard" />
+	<meta name="author" content="Steve Moya Cepeda" />
 
 </head>
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-9B8B9Q2VXD"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-9B8B9Q2VXD');
-</script>
 <body>
     <!--contains all the div-->
     <div id="all">
@@ -53,7 +40,7 @@
     <!--loader-->
         <div id="loader">
 
-            <img class="loader__icon" src="images/reshot-icon-funnel-money-SGKD82ZU7E.svg" alt="">
+            <img class="loader__icon" src="images/logo.svg" alt="">
 
             <span class="color">Cargando</span>
             
@@ -68,7 +55,7 @@
         <div id="navigation-content">
             <div class="logo">
                 <a href="index.html">
-                <img src="images/reshot-icon-digital-marketing-VL8WMRE52U.svg" alt="logo">
+                <img src="images/nav-logo.svg" alt="logo" >
             </a>
             </div>
             <div class="navigation-close">
@@ -76,18 +63,18 @@
                 <span class="close-second"></span>
             </div>
             <div class="navigation-links">
-                <a href="#" data-text="HOME" id="home-link" >INICIO</a>
-                <a href="#" data-text="ABOUT" id="about-link" >SOBRE MI</a>
+                <a href="#" data-text="INICIO" id="home-link" >INICIO</a>
+                <a href="#" data-text="YO" id="about-link" >SOBRE MI</a>
                 <a href="#" data-text="BLOG" id="blog-link" >BLOG</a>
                 <a href="#" data-text="PORTFOLIO" id="portfolio-link" >PORTFOLIO</a>
-                <a href="#" data-text="CONTACT" id="contact-link" >CONTACTO</a>
+                <a href="#" data-text="CONTACTO" id="contact-link" >CONTACTO</a>
             </div>
         </div>
         <!--Navigator-Fullscreen END-->
           <!--Home Page-->
         <!--Menubar-->
         <div id="navigation-bar">
-            <img src="images/reshot-icon-funnel-money-SGKD82ZU7E.svg" alt="logo">
+            <img loading="lazy" src="images/logo.svg" alt="logo">
             <div class="menubar">
                 <span class="first-span"></span>
                 <span class="second-span"></span>
@@ -99,10 +86,11 @@
         <div id="header">
             <div id="particles"></div>
               <!--Social Media Links-->
-            <div class="social-media-links">
-               <a href="https://www.instagram.com/steve_moya_cepeda/"><img src="images/instagram logo.png" class="social-media" alt="instagram-logo"></a> <!--instagram -->
-                <a href="https://www.facebook.com/steven.cepeda.35/"><img src="images/facebook logo.png" class="social-media" alt="facebook-logo"></a>
-                <a href="https://www.linkedin.com/in/steve-moya-cepeda-549469227/"><img src="images/linkedin logo.png" class="social-media" alt="linkedin-logo"></a> 
+            </span><div class="social-media-links">
+               <a href="https://www.instagram.com/steve_moya_cepeda/" target="_blank"><img src="images/instagram-icon.svg" class="social-media" alt="instagram-logo"></a> <!--instagram -->
+                <a href="https://www.facebook.com/steven.cepeda.35/" target="_blank"><img src="images/facebook-icon.svg" class="social-media" alt="facebook-logo"></a>
+                <a href="https://www.linkedin.com/in/steve-moya-cepeda-549469227/" target="_blank"><img src="images/linkedin-icon.svg" class="social-media" alt="linkedin-logo"></a> 
+                <a href="https://github.com/SteveMoya" target="_blank"><img src="images/github-icon.svg" class="social-media" alt="github-logo"></a> 
                 
             </div>
             <!--Social Media Links end-->
@@ -115,14 +103,14 @@
             <span class="slash">|</span>
         </div>
                     <div class="contact">
-                <a href="Stevenmc2015@hotmail.com"><img src="images/mail.png" alt="email-pic" class="contactpic"></a><!--Your email Id write in place of "#"-->
-                <a href="Tel:#+1(849)751-1849"><img src="images/call.png" alt="phone-pic" class="contactpic"></a><!--Your telephone number Id write in place of "#"-->
+                <a href="Stevenmc2015@hotmail.com" target="_blank"><img src="images/Mail.svg" alt="email-pic" class="contactpic"></a><!--Your email Id write in place of "#"-->
+                <a href="Tel:#+1(849)751-1849" target="_blank"><img src="images/call-icon.svg" alt="phone-pic" class="contactpic"></a><!--Your telephone number Id write in place of "#"-->
                     </div>    
             </div>
             </div>
             <!--header image-->
             <div class="header-image">
-            <img src="images/man.jpg" alt="logo">
+            <img src="images/man.webp" alt="logo">
             
             </div>
             <!--header image end-->
@@ -134,7 +122,7 @@
         <div id="about">
             <div class="color-changer">
             <div class="color-panel">
-                <img src="images/gear.png" alt="">
+                <img loading="lazy" src="images/gear.svg" alt="">
             </div>
             <div class="color-selector">
                 <div class="heading">Cambia el Color</div>
@@ -173,17 +161,18 @@
             <!--about description-->
                <span class="about-first-line">
                     Soy un
-                    <span class="color">Marketer Creativo</span>
-                    que vive en Santo Domingo, Republica Dominicana </span>
+                    <span class="color">Pionero</span>
+                    En la tendencia de el Marketing 5.0 en Republica Domincana </span>
                      <br>
-               <span class="about-second-line">  Soy estudiante de marketing con 2 años de experiencia en empresas en el area de marketing. Apacionado en aprender sobre el área de producto y satisfacer las necesidades de los clientes. </span>
+               <span class="about-second-line">Con mas 2 años de experiencia en el área de marketing. 
+                Me considero un apasionado en el aprendizaje entorno al área de productos o servicios y satisfacer las necesidades de los clientes.</span>
                <div class="cv">
                 <a href="curriculum vitae - cv/CV. Steve Moya Cepeda.pdf" target="_blank" alt="curriculun vitae - cv"><button>Descarga Mi <span class="colors">CV</span></button></a>
             </div>
             </div>
             <!--about picture-->
             <div class="about-img">
-                <img src="images/about.webp" alt="mi imagen">
+                <img loading="lazy" src="images/about.webp" alt="mi imagen">
             </div>
             </div>
     
@@ -192,7 +181,7 @@
             <div id="services">
                 <div class="color-changer">
                     <div class="color-panel">
-                        <img src="images/gear.png" alt="">
+                        <img loading="lazy" src="images/gear.svg" alt="">
                     </div>
                     <div class="color-selector">
                         <div class="heading">Cambia el Color</div>
@@ -229,29 +218,29 @@
                     <div class="services-content">
                            <div class="service-one service wow">
                                <div class="service-img">
-                               <img src="images/coding.png" alt="service-one">
+                               <img loading="lazy" src="images/coding.svg" alt="service-one">
                                </div>
                                <div class="service-description">
                                 <h2>Diseño Web</h2>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod quibusdam possimus</p>
+                                <p>Habilidades en la creación de diseños web atractivos.</p>
                                </div>
                            </div>
                            <div class="service-two service wow">
                                <div class="service-img">
-                               <img src="images/reshot-icon-ad-4PNKCSXZM7.svg" alt="service-two">
+                               <img loading="lazy" src="images/socialmedia.svg" alt="service-two">
                                </div>
                                <div class="service-description">
                                 <h2>Social Media</h2>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod quibusdam possimus</p>
+                                <p>Habilidades para la gestión de comunidades para mejorar el compromiso de los clientes.</p>
                                </div>
                            </div>
                            <div class="service-three service wow">
                             <div class="service-img">
-                               <img src="images/bulb.png" alt="service-three">
+                               <img loading="lazy" src="images/creative.svg" alt="service-three">
                             </div>
                             <div class="service-description">
                                 <h2>Diseño Creativo</h2>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod quibusdam possimus</p>
+                                <p>Habilidades en la creación de diseños atractivos para la comunicación visual.</p>
                             </div>
                         </div>
                     </div>
@@ -338,7 +327,7 @@
         <div id="portfolio">
             <div class="color-changer">
                 <div class="color-panel">
-                    <img src="images/gear.png" alt="">
+                    <img loading="lazy" src="images/gear.svg" alt="">
                 </div>
                 <div class="color-selector">
                     <div class="heading">Cambia el Color</div>
@@ -371,7 +360,7 @@
              <div id="portfolio-content">
                  <div class="portfolio portfolio-first">
                      <div class="portfolio-image">
-                        <img src="images/portfolio-first.jpg" alt="portfolio-first">
+                        <img loading="lazy" src="images/portfolio-first.webp" alt="portfolio-first">
                      </div>
                      <div class="portfolio-text">
                          <h2>Nuevo Producto</h2>
@@ -382,10 +371,10 @@
                  </div>
                  <div class="portfolio portfolio-second">
                     <div class="portfolio-image">
-                        <img src="images/portfolio-second.jpg" alt="portfolio-second">
+                        <img loading="lazy" src="images/portfolio-second.webp" alt="portfolio-second">
                     </div>
                     <div class="portfolio-text">
-                        <h2>Fotografia</h2>
+                        <h2>Fotografía</h2>
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id cumque placeat minima ad laudantium suscipit
                              voluptatem ducimus. Id cumque placeat minima ad laudantium suscipit voluptatem ducimus</p>
                         <div class="button"><a href="#"><button><span class="index"> View Project<i class="gg-arrow-right"></i></span></button></a></div>
@@ -394,7 +383,7 @@
              
                 <div class="portfolio portfolio-third">
                     <div class="portfolio-image">
-                        <img src="images/portfolio-third.jpg" alt="portfolio-third">
+                        <img loading="lazy" src="images/portfolio-third.webp" alt="portfolio-third">
                     </div>
                     <div class="portfolio-text">
                         <h2>Mejora de experiencia de usuario</h2>
@@ -405,10 +394,10 @@
                 </div>
                 <div class="portfolio portfolio-fourth">
                     <div class=" portfolio-image">
-                        <img src="images/portfolio-fourth.jpg" alt="portfolio-fourth">
+                        <img loading="lazy" src="images/portfolio-fourth.webp" alt="portfolio-fourth">
                     </div>
                     <div class="portfolio-text">
-                        <h2>Diseño Grafico</h2>
+                        <h2>Diseño Gráfico</h2>
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad ut optio repellat cupiditate
                              expedita eius dignissimos. Id cumque placeat minima ad laudantium suscipit voluptatem ducimus</p>
                         <div class="button"><a href="#"><button><span class="index"> View Project<i class="gg-arrow-right"></i></span></button></a></div>
@@ -428,7 +417,7 @@
         <div id="blog">
             <div class="color-changer">
                 <div class="color-panel">
-                    <img src="images/gear.png" alt="">
+                    <img loading="lazy" src="images/gear.svg" alt="">
                 </div>
                 <div class="color-selector">
                     <div class="heading">Cambia el Color</div>
@@ -462,11 +451,11 @@
                  <div class="blogs">
                      <a href="#">
                      <div class="img">
-                        <img src="images/post-one.jpg" alt="blog-one">
+                        <img loading="lazy" src="images/post-one.webp" alt="blog-one">
                         <div class="blog-date">8 May,20</div>
                      </div>
                      <div class="blog-text">
-                         <h3>Hermosos lugares en Santo Domingo</h3>
+                         <h3>El Marketing 5.0</h3>
                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus alias dolore recusandae illum, corrupti quo 
                              veniam saepe aliquid! Quis voluptates ratione consequuntur vel, perferendis cum provident? Magnam fugiat voluptas
                               libero.</p>
@@ -475,11 +464,11 @@
                  <div class="blogs">
                     <a href="#">
                     <div class="img">
-                        <img src="images/post-two.jpg" alt="blog-two">
+                        <img loading="lazy" src="images/post-two.webp" alt="blog-two">
                         <div class="blog-date">16 Jan,20</div>
                     </div>
                     <div class="blog-text">
-                        <h3>Como mejorar la productividad?</h3>
+                        <h3>Las 22 leyes del Marketing</h3>
                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt maiores, 
                             recusandae cupiditate ducimus a non tempora, architecto obcaecati eaque ipsum assumenda harum dolorum iusto tenetur
                              eius eligendi dolor magnam sit!</p>
@@ -488,11 +477,11 @@
                 <div class="blogs">
                     <a href="#">
                     <div class="img">
-                        <img src="images/post-three.jpg" alt="blog-three">
+                        <img loading="lazy" src="images/post-three.webp" alt="blog-three">
                         <div class="blog-date">30 Nov,19</div>
                     </div>
                     <div class="blog-text">
-                        <h3>El Cafe</h3>
+                        <h3>El Café</h3>
                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo nostrum impedit 
                             ipsam perspiciatis ratione sapiente quasi optio reprehenderit, labore consequuntur suscipit cum quas.
                              Officiis dolorem asperiores, ut necessitatibus quas doloremque?</p>
@@ -501,11 +490,11 @@
                 <div class="blogs">
                     <a href="#">
                     <div class="img">
-                        <img src="images/post-four.jpg" alt="blog-four">
+                        <img loading="lazy" src="images/post-four.webp" alt="blog-four">
                         <div class="blog-date">6 Jul,19</div>
                     </div>
                     <div class="blog-text">
-                        <h3>Investigaciones de marketing</h3>
+                        <h3>Investigación de marketing</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, veniam ratione quam vitae,
                              quibusdam explicabo rem debitis velit ipsa repellat, impedit nulla fuga? Amet corporis praesentium quae.
                               Sed, quibusdam necessitatibus.</p>
@@ -514,7 +503,7 @@
                 <div class="blogs">
                     <a href="#">
                     <div class="img">
-                        <img src="images/post-five.jpg" alt="blog-five">
+                        <img loading="lazy" src="images/post-five.webp" alt="blog-five">
                         <div class="blog-date">1 Jun,19</div>
                     </div>
                     <div class="blog-text">
@@ -527,7 +516,7 @@
                 <div class="blogs">
                     <a href="#">
                     <div class="img">
-                        <img src="images/post-six.jpg" alt="blog-six">
+                        <img loading="lazy" src="images/post-six.webp" alt="blog-six">
                         <div class="blog-date">28 Feb,19</div>
                     </div>
                     <div class="blog-text">
@@ -539,8 +528,8 @@
                 <div class="blogs">
                     <a href="#">
                     <div class="img">
-                        <img src="images/post-six.jpg" alt="blog-six">
-                        <div class="blog-date">28 Feb,19</div>
+                        <img loading="lazy" src="images/post-six.webp" alt="blog-seven">
+                        <div class="blog-date">** *,**</div>
                     </div>
                     <div class="blog-text">
                         <h3>Proximamente</h3>
@@ -566,7 +555,7 @@
      <div id="contact">
         <div class="color-changer">
             <div class="color-panel">
-                <img src="images/gear.png" alt="">
+                <img loading="lazy" src="images/gear.svg" alt="">
             </div>
             <div class="color-selector">
                 <div class="heading">Cambia el Color</div>
@@ -602,7 +591,7 @@
                  <div class="form-header">
                      Enviame un mensaje
                  </div>
-                 <form id="myForm" action="https://formsubmit.co/stevenmc2015@hotmail.com" method="POST">
+                 <form id="myForm" action="https://formsubmit.co/stevenmc2015@hotmail.com" method="POST" target="_blank">
                     <div class="input-line">
                         <input name="name"  id="name" type="text" placeholder="Nombre" class="input-name">
                         <input name="email" id="email" type="email" placeholder="E-mail"  class="input-name">
@@ -622,21 +611,21 @@
                 </div>
                 <div class="contact-info-content">
                 <div class="contect-info-content-line">
-                    <img src="./images/icon-name.png" class="icon" alt="name-icon">
+                    <img loading="lazy" src="./images/icon-name.svg" class="icon" alt="name-icon">
                     <div class="contact-info-icon-text">
                         <h6>Mi Nombre</h6>
                         <p>Steve Moya Cepeda</p>
                   </div>
                 </div>
                 <div class="contect-info-content-line">
-                  <img src="./images/icon-location.png" class="icon" alt="location-icon">
+                  <img loading="lazy" src="./images/location.svg" class="icon" alt="location-icon">
                   <div class="contact-info-icon-text">
                       <h6>Ubicacion</h6>
                       <p>Santo Domingo, Republica Dominicana</p>
                 </div>
               </div>
               <div class="contect-info-content-line">
-                  <img src="./images/icon-phone.png" class="icon" alt="phone-icon">
+                  <img loading="lazy" src="./images/call.svg" class="icon" alt="phone-icon">
                   <div class="contact-info-icon-text">
                       <h6>Mi Numero</h6>
                       <p>+1 (849) 751-1849</p>
@@ -644,7 +633,7 @@
               </div>
               
               <div class="contect-info-content-line">
-                  <img src="./images/icon-email.png" class="icon" alt="email-icon">
+                  <img loading="lazy" src="./images/@.svg" class="icon" alt="email-icon">
                   <div class="contact-info-icon-text">
                       <h6>Mi Email</h6>
                       <p>Stevenmc2015@hotmail.com</p>
@@ -665,10 +654,7 @@
         <!--contact end-->
     </div>
     <!--all the divisions-->
-    <script src="js/jquery.min.js"></script>
-    <script src="js/particles.js"></script>
-    <script src="js/particles.min.js"></script>
-    <script src="js/index.js"></script>
+     <!--Colocar los defer-->
     <!--particles script-->
     <script>
  particlesJS("particles", {"particles":{"number":{"value":120,"density":{"enable":true,"value_area":800}},"color":{"value":"#ffffff"},"shape":{"type":"circle","stroke":{"width":0,"color":"#000000"},"polygon":{"nb_sides":5},"image":{"src":"img/github.svg","width":100,"height":100}},"opacity":{"value":0.5,"random":false,"anim":{"enable":true,"speed":1,"opacity_min":0.1,"sync":false}},"size":{"value":3,"random":true,"anim":{"enable":true,"speed":0,"size_min":0.1,"sync":false}},"line_linked":{"enable":false,"distance":0,"color":"#ffffff","opacity":0.24463576890600452,"width":1.2626362266116362},"move":{"enable":true,"speed":3,"direction":"none","random":false,"straight":false,"out_mode":"out","bounce":false,"attract":{"enable":false,"rotateX":600,"rotateY":1200}}},"interactivity":{"detect_on":"canvas","events":{"onhover":{"enable":false,"mode":"grab"},"onclick":{"enable":true,"mode":"push"},"resize":true},"modes":{"grab":{"distance":400,"line_linked":{"opacity":1}},"bubble":{"distance":400,"size":40,"duration":2,"opacity":8,"speed":3},"repulse":{"distance":200,"duration":0.4},"push":{"particles_nb":4},"remove":{"particles_nb":2}}},"retina_detect":true});
