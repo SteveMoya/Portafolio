@@ -88,12 +88,12 @@ body{
     height: auto;
     overflow-x: hidden;
     width: 100%;
-    background: #000000;
+    background: #171717;
 }
 #header{
     background:#171717;
     height: 100vh;
-    width: 100%;;
+    width: 100%;
     overflow: hidden;
     animation: scale 1.5s ease;
     position:relative;
@@ -239,7 +239,6 @@ body{
 #navigation-bar img{
     height: 80px;
     position: absolute;
-    ;
     top: 15%;
     left: 2.5%;
     opacity: .8;
@@ -250,7 +249,6 @@ body{
     transform:rotate(-45deg);
 }
 .header-image img{
-    width: auto;
     height: 100vh;
     float: right;
 
@@ -329,6 +327,7 @@ body{
         z-index: 0;
     }
 }
+
 .social-media-links{
     height: 100vh;
     position: absolute;
@@ -341,10 +340,9 @@ body{
     justify-content: center;
 }
 .social-media{
-    width:  25px;
-    ;
+    width:  21px;
     opacity: .6;
-    margin: 20px;
+    margin: 8px;
     transition: all .4s ease;
 }
 .social-media:hover{
@@ -651,8 +649,7 @@ body{
     position: relative;
     display: inline-block;
     z-index:2;
-    padding: 40px;
-    
+    padding: 20px;
     
 }
 .service-description h2{
@@ -837,8 +834,8 @@ body{
     justify-content: center;
     padding: 1.5%;
     padding-right: 2%;
-padding-top: 50px;
-padding-bottom: 40px;
+    padding-top: 50px;
+    padding-bottom: 40px;
 }
 
 .portfolio-text{
@@ -862,10 +859,7 @@ padding-bottom: 40px;
     color: #c70039;
     transition: all .4s ease;
 }
-.capa_1 {
-    fill: #c70039;
-    color: #c70039;
-}
+
 .portfolio-text p{
     font-size: 16px;
     opacity: .8;
@@ -873,6 +867,7 @@ padding-bottom: 40px;
     font-weight: 200;
     padding: 20px;
 }
+
 .portfolio-text button{
     font-size: 16px;
     opacity: .8;
@@ -917,12 +912,13 @@ padding-bottom: 40px;
 .button{
     text-align: center;
 }
-    .portfolio-image img{
+.portfolio-image img{
         height: 400px;
         width: 100%;
         position: relative;
+        
     }
-    .portfolio-image{
+.portfolio-image{
         height: 400px;
         width: 40%;
     }
@@ -2326,8 +2322,8 @@ for tabs and large phones
 @media all and (max-width: 9000px) and (min-width: 1441px){
 
     .portfolio-image img{
-        height: 100vh;
-        width: 100vh;
+        height: 500px;
+        width: 100%;
         position: relative;
         
     }
