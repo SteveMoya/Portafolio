@@ -1,12 +1,10 @@
 
-<!DO lang="en">
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Steve Moya - Personal Portfolio Web</title>
-    
-    
-
   <!--favicon-img--> 
    <link rel="icon" type="image/png" href="/images/logo.svg">
    
@@ -38,8 +36,23 @@
         <div class="cursor"></div>
     <!--loader-->
         <div id="loader">
-
-            <img class="loader__icon" src="images/logo.svg" alt="">
+            <div class="progressbar-container">
+                <div class="outer-box">
+                    <div class="inner-box"><img class="loader__icon" src="images/logo.svg" alt="loader"></div>
+                    <svg xmls="https://www.w3.org/2000/svg" version="1.1" width="200" height="200"
+                    >
+                    <defs>
+                        <linearGradient id="gradientColor">
+                            <stop offset="0%" stop-color="#fff" />
+                            <stop offset="100%" stop-color="#202020" />
+                        </linearGradient>
+                    </defs>
+                    <circle cx="100" cy="100" r="80" stroke-linecap="round"/>
+                    </svg>
+                </div>
+                
+            </div>
+            
 
             <span class="color">Cargando</span>
             
@@ -53,7 +66,7 @@
         <!--Navigator-fullscreen-->
         <div id="navigation-content">
             <div class="logo">
-                <a href="">
+                <a href="#">
                 <img src="images/nav-logo.svg" alt="logo" >
             </a>
             </div>
@@ -97,7 +110,7 @@
                 <div class="header-content-box">
                 <div class="firstline"><span class="color">Steve </span>Moya</div>
                 <div class="secondline">
-                Soy 
+                Soy
             <span class="txt-rotate color" data-period="1200"data-rotate='[ " Diseñador.", " Fotógrafo.", " Marketer." ]'></span>
             <span class="slash">|</span>
         </div>
@@ -108,8 +121,8 @@
             </div>
             </div>
             <!--header image-->
-            <div class="header-image">
-            <img src="images/man.webp" alt="logo">
+            <div class="header-image ">
+            <img src="images/Steve-Moya.jpg" alt="Steve-moya">
             
             </div>
             <!--header image end-->
@@ -161,17 +174,17 @@
                <span class="about-first-line">
                     Soy un
                     <span class="color">Pionero</span>
-                    En la tendencia de el Marketing 5.0 en Republica Domincana </span>
+                    En la tendencia de el Marketing 5.0 en Republica Dominicana </span>
                      <br>
                <span class="about-second-line">Con mas 2 años de experiencia en el área de marketing. 
                 Me considero un apasionado en el aprendizaje entorno al área de productos o servicios y satisfacer las necesidades de los clientes.</span>
                <div class="cv">
-                <a href="curriculum vitae - cv/CV. Steve Moya Cepeda.pdf" target="_blank" alt="curriculun vitae - cv"><button>Descarga Mi <span class="colors">CV</span></button></a>
+                <a href="cv/CV-Steve-Moya-Cepeda.pdf" target="_blank" alt="curriculun vitae - cv"><button>Descarga Mi <span class="colors">CV</span></button></a>
             </div>
             </div>
             <!--about picture-->
             <div class="about-img">
-                <img loading="lazy" src="images/about.webp" alt="mi imagen">
+                <img loading="lazy" src="images/Yo.jpg" alt="mi imagen">
             </div>
             </div>
     
@@ -362,10 +375,9 @@
                         <img loading="lazy" src="images/portfolio-first.webp" alt="portfolio-first">
                      </div>
                      <div class="portfolio-text">
-                         <h2>Desarrollo de Productos</h2>
-                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad ut optio repellat cupiditate 
-                             expedita eius dignissimos. Id cumque placeat minima ad laudantium suscipit voluptatem ducimus</p>
-                         <div class="button"><a href="home_proyectos/"><button><span class="index"> Ver <i class="gg-arrow-right"></i></span></button></a></div>
+                         <h2>Marketing</h2>
+                         <p>Todavia Trabajando en ello</p>
+                         <div class="button"><a href="home_proyectos/Marketing.html"><button><span class="index"> Ver <i class="gg-arrow-right"></i></span></button></a></div>
                      </div>
                  </div>
                  <div class="portfolio portfolio-second">
@@ -374,9 +386,8 @@
                     </div>
                     <div class="portfolio-text">
                         <h2>Fotografía</h2>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id cumque placeat minima ad laudantium suscipit
-                             voluptatem ducimus. Id cumque placeat minima ad laudantium suscipit voluptatem ducimus</p>
-                        <div class="button"><a href="home_proyectos/"><button><span class="index"> Ver <i class="gg-arrow-right"></i></span></button></a></div>
+                        <p>Puedes darle un vistazo pero todavia estoy Trabajando en ello</p>
+                        <div class="button"><a href="home_proyectos/Fotografia.html"><button><span class="index"> Ver <i class="gg-arrow-right"></i></span></button></a></div>
                     </div>
                 </div>
              
@@ -385,10 +396,9 @@
                         <img loading="lazy" src="images/portfolio-third.webp" alt="portfolio-third">
                     </div>
                     <div class="portfolio-text">
-                        <h2>Mejora de experiencia de usuario</h2>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad ut optio repellat cupiditate expedita eius dignissimos
-                            .. Id cumque placeat minima ad laudantium suscipit voluptatem ducimus</p>
-                        <div class="button"><a href="home_proyectos/"><button><span class="index"> Ver <i class="gg-arrow-right"></i></span></button></a></div>
+                        <h2>Web</h2>
+                        <p>Puedes darle un vistazo pero todavia estoy Trabajando en ello</p>
+                        <div class="button"><a href="home_proyectos/Web.html"><button><span class="index"> Ver <i class="gg-arrow-right"></i></span></button></a></div>
                     </div>
                 </div>
                 <div class="portfolio portfolio-fourth">
@@ -397,9 +407,8 @@
                     </div>
                     <div class="portfolio-text">
                         <h2>Diseño Gráfico</h2>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad ut optio repellat cupiditate
-                             expedita eius dignissimos. Id cumque placeat minima ad laudantium suscipit voluptatem ducimus</p>
-                        <div class="button"><a href="home_proyectos/"><button><span class="index"> Ver <i class="gg-arrow-right"></i></span></button></a></div>
+                        <p>Todavia Trabajando en ello</p>
+                        <div class="button"><a href="home_proyectos/Diseño-Grafico.html"><button><span class="index"> Ver <i class="gg-arrow-right"></i></span></button></a></div>
                     </div>
                 </div>
                  </div>
@@ -450,53 +459,48 @@
                  <div class="blogs">
                      <a href="#">
                      <div class="img">
-                        <img loading="lazy" src="images/post-one.webp" alt="blog-one">
-                        <div class="blog-date">8 May,20</div>
+                        <!--<img loading="lazy" src="images/post-one.webp" alt="blog-one">-->
+                        <img loading="lazy" src="images/marketing5.0.jpg" alt="blog-one">
+                        <div class="blog-date">Proxi.</div>
                      </div>
                      <div class="blog-text">
                          <h3>El Marketing 5.0</h3>
-                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus alias dolore recusandae illum, corrupti quo 
-                             veniam saepe aliquid! Quis voluptates ratione consequuntur vel, perferendis cum provident? Magnam fugiat voluptas
-                              libero.</p>
+                         <p>Todavia Trabajando en el blog</p>
                      </div></a>
                  </div>      
                  <div class="blogs">
                     <a href="#">
                     <div class="img">
-                        <img loading="lazy" src="images/post-two.webp" alt="blog-two">
-                        <div class="blog-date">16 Jan,20</div>
+                       <!-- <img loading="lazy" src="images/post-two.webp" alt="blog-two">-->
+                       <img loading="lazy" src="images/22leyes.jpg" alt="blog-two"> 
+                       <div class="blog-date">16 Jan,20</div>
                     </div>
                     <div class="blog-text">
                         <h3>Las 22 leyes del Marketing</h3>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Incidunt maiores, 
-                            recusandae cupiditate ducimus a non tempora, architecto obcaecati eaque ipsum assumenda harum dolorum iusto tenetur
-                             eius eligendi dolor magnam sit!</p>
+                        <p>Todavia Trabajando en el blog</p>
                     </div></a>
                 </div>      
                 <div class="blogs">
                     <a href="#">
                     <div class="img">
-                        <img loading="lazy" src="images/post-three.webp" alt="blog-three">
-                        <div class="blog-date">30 Nov,19</div>
+                       <!-- <img loading="lazy" src="images/post-three.webp" alt="blog-three"> -->
+                       <img loading="lazy" src="images/marketing4.0-v.jpg" alt="blog-three">
+                        <div class="blog-date">Proxi.</div>
                     </div>
                     <div class="blog-text">
-                        <h3>El Café</h3>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo nostrum impedit 
-                            ipsam perspiciatis ratione sapiente quasi optio reprehenderit, labore consequuntur suscipit cum quas.
-                             Officiis dolorem asperiores, ut necessitatibus quas doloremque?</p>
+                        <h3>Marketing 4.0</h3>
+                        <p>Todavia Trabajando en el blog</p>
                     </div></a>
                 </div>
                 <div class="blogs">
                     <a href="#">
                     <div class="img">
-                        <img loading="lazy" src="images/post-four.webp" alt="blog-four">
-                        <div class="blog-date">6 Jul,19</div>
+                        <img loading="lazy" src="images/post-three.webp" alt="blog-four">
+                        <div class="blog-date">Proxi.</div>
                     </div>
                     <div class="blog-text">
-                        <h3>Investigación de marketing</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, veniam ratione quam vitae,
-                             quibusdam explicabo rem debitis velit ipsa repellat, impedit nulla fuga? Amet corporis praesentium quae.
-                              Sed, quibusdam necessitatibus.</p>
+                        <h3>El Café </h3>
+                        <p>Todavia Trabajando en el blog</p>
                     </div></a>
                 </div>  
                 <div class="blogs">
@@ -507,9 +511,7 @@
                     </div>
                     <div class="blog-text">
                         <h3>El trabajo desde Casa</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga sunt eum necessitatibus rem 
-                            dignissimos nulla mollitia cumque, provident officiis non vitae? Animi aut doloremque illum, soluta hic minus 
-                            sint explicabo..</p>
+                        <p>Todavia Trabajando en el blog</p>
                     </div></a>
                 </div>  
                 <div class="blogs">
@@ -520,8 +522,7 @@
                     </div>
                     <div class="blog-text">
                         <h3>Mejoras de negocio</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo tempora dolorum fuga ratione, unde, 
-                            ex quaerat iste numquam nemo nihil nobis rem sint quia recusandae dignissimos quos ut rerum nam.</p>
+                        <p>Todavia Trabajando en el blog</p>
                     </div></a>
                 </div>
                 <div class="blogs">
@@ -532,8 +533,7 @@
                     </div>
                     <div class="blog-text">
                         <h3>Proximamente</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo tempora dolorum fuga ratione, unde, 
-                            ex quaerat iste numquam nemo nihil nobis rem sint quia recusandae dignissimos quos ut rerum nam.</p>
+                        <p>Todavia Trabajando en el blog</p>
                     </div></a>
                 </div>
                 
@@ -658,4 +658,4 @@
     <script>
  particlesJS("particles", {"particles":{"number":{"value":120,"density":{"enable":true,"value_area":800}},"color":{"value":"#ffffff"},"shape":{"type":"circle","stroke":{"width":0,"color":"#000000"},"polygon":{"nb_sides":5},"image":{"src":"img/github.svg","width":100,"height":100}},"opacity":{"value":0.5,"random":false,"anim":{"enable":true,"speed":1,"opacity_min":0.1,"sync":false}},"size":{"value":3,"random":true,"anim":{"enable":true,"speed":0,"size_min":0.1,"sync":false}},"line_linked":{"enable":false,"distance":0,"color":"#ffffff","opacity":0.24463576890600452,"width":1.2626362266116362},"move":{"enable":true,"speed":3,"direction":"none","random":false,"straight":false,"out_mode":"out","bounce":false,"attract":{"enable":false,"rotateX":600,"rotateY":1200}}},"interactivity":{"detect_on":"canvas","events":{"onhover":{"enable":false,"mode":"grab"},"onclick":{"enable":true,"mode":"push"},"resize":true},"modes":{"grab":{"distance":400,"line_linked":{"opacity":1}},"bubble":{"distance":400,"size":40,"duration":2,"opacity":8,"speed":3},"repulse":{"distance":200,"duration":0.4},"push":{"particles_nb":4},"remove":{"particles_nb":2}}},"retina_detect":true});
 </script>
-</bo>
+</body>
