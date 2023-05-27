@@ -4,19 +4,16 @@
 Este es un portafolio provisional con imagenes y contenido temporal
 
 
-#
+#View Site: <br>
+https://vercel.com/stevemoya/portafolio-steve-moya/515mBV8tv8G5XXxxTU2DXqgpYg3E
+
+#Description
 
 
-#
+#Proposito
 
 
-#
-
-
-#
-
-#
-
+#Como esta Construido?
 
 #
 
@@ -27,4 +24,7 @@ Este es un portafolio provisional con imagenes y contenido temporal
 #
 
 
-#
+
+
+
+
