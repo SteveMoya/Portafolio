@@ -1,0 +1,79 @@
+/*Cards*/
+
+.cards {
+    display: flex;
+    width: 100%;
+    padding: 50px;
+}
+
+.cards {
+    width: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.cards .card {
+    background-color: #18B45C;
+    color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease; 
+    box-shadow: -3px 0 10px rgba(0, 0, 0, 0.3), -4px  0 10px rgba(0, 0, 0, 0.2), -5px 0 10px rgba(0, 0, 0, 0.1);  
+    width: 300px;
+    height: 350px;
+}
+
+.cards .card a {
+    color: blue;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.cards .card a:hover {
+    color: white;
+
+}
+
+.cards .card .header {
+    flex: 1;
+}
+
+.cards .card:hover {
+    margin-right: 80px;
+    transform: rotate(3deg) translateY(-15px);
+}
+
+.cards .card .header .date {
+    padding: 10px 0;
+}
+
+.cards .card .header .title {
+    font-size: 28px;
+}
+
+.cards .card .footer .autor a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.cards .card .footer img {
+    width: 80px;
+
+}
+
+.cards .card[class*="element"] {
+    margin-left: -100px;
+}
+
+.element-1:hover, .element-2:hover  {
+    margin-left: -130px;
+}
+/*End Cards*/

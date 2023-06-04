@@ -1,0 +1,31 @@
+table {
+    color: whitesmoke;
+    font-size: 25px;
+    border-spacing: 0;
+    border-collapse: collapse;
+    width: 800px;
+    margin: 100px auto;   
+}
+
+td, th {
+    border: solid 1px grey;
+}
+
+tr:nth-child(even) {
+    background-color: rgb(90, 90, 90);
+}
+
+td:nth-child(n + 3), th:nth-child(n + 3) {
+    text-align: center;
+}
+
+tbody tr:hover {
+    background-color: rgb(120, 120, 120);
+}
+
+thead {
+    background-color: rgb(219, 219, 219);
+    color: rgb(31, 31, 31);
+    position: sticky;
+    top: 0;
+}

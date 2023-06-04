@@ -1,0 +1,80 @@
+@import url(css/estilo1.css);/*Complete*/
+@import url(css/estilo2.css);/*Complete*/
+@import url(css/estilo3.css);/*Complete*/
+@import url(css/estilo4.css);/*Complete*/
+@import url(css/estilo5.css);/*Complete*/
+@import url(css/estilo6.css);/*Complete*/
+@import url(css/estilo7.css);/*Complete*/
+@import url(css/estilo8.css);/*Complete*/
+@import url(css/estilo9.css);/*Complete*/
+@import url(css/estilo10.css);/*Progress*/
+@import url(css/estilo11.css);/**/
+@import url(css/estilo12.css);/**/
+@import url(css/estilo13.css);/**/
+@import url(css/estilo14.css);/**/
+@import url(css/estilo15.css);/**/
+@import url(css/estilo16.css);/**/
+
+
+
+::-webkit-scrollbar{
+    width: 4px;
+    color:white;
+    transition: all .4s ease;
+}
+::-webkit-scrollbar-thumb {
+    background: white; 
+    border-radius: 4px;
+    width: 4px;
+    transition: all .4s ease;
+  }
+  ::-webkit-scrollbar-track {
+    background: #101010; 
+    border-radius: 4px;
+    width: 4px;
+  }
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: serif;
+    text-decoration: none;
+    list-style: none;
+    background-image: radial-gradient( circle 815px at 23.4% -21.8%,  rgba(9,29,85,1) 0.2%, rgba(0,0,0,1) 100.2% );
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 28px;
+    color: whitesmoke;
+    transition: all 0.3s ease-in-out;
+    padding: 5px;
+    margin: 10px;
+    margin-top: 35px;
+}
+.main h1:hover {
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+}
+
+
+.footer-end{
+    background: #ccc;
+    width: 99.5vw;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Poppins', sans-serif;
+    align-items: center;
+    justify-content: center;
+    
+}

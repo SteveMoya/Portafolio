@@ -1,0 +1,54 @@
+.cartas {
+    display: flex;
+    flex-direction: row;
+   /* align-items: center;
+    justify-content: center; */
+    gap: 3em;
+
+    margin: 2em;
+    
+    color: #1f1f1f;
+}
+
+.cartas .flip-card {
+    background: transparent;
+    width: 300px;
+    height: 300px;
+    border: solid 1px #f1f1f1;
+    perspective: 500px;
+}
+
+.cartas .flip-card .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s ease-in-out;
+    transform-style: preserve-3d;
+}
+
+.cartas .flip-card:hover .flip-card-inner{
+    transform: rotateY(180deg);
+}
+
+.cartas .flip-card-front, .cartas .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+
+.cartas .flip-card .flip-card-front {
+    background-color: #f1f1f1;
+    color: #1f1f1f;
+
+}
+.cartas .flip-card .flip-card-front img {
+    width: 100%;
+}
+
+.cartas .flip-card .flip-card-back {
+    background-color: #f1f1f1;
+    color: #1f1f1f;
+    transform: rotateY(180deg);
+}
