@@ -537,28 +537,6 @@ body.dark .home .text {
     color: whitesmoke;
 }
 
-
-/*
-.button{
-    font-size: 16px;
-    opacity: .8;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 200;
-    padding: 10px 20px;
-    background:transparent;
-    color:#c70039;
-    transition: all .4s ease;
-    outline: none;
-    margin: 20px;
-    border: 1.5px solid #c70039;
-    cursor: pointer;
-    overflow: hidden;
-    position: relative;
-    transition: all .4s ease;
-}
-*/
-
-
 .footer{
     background: var(--primary-color-light);
     width: 100%;
