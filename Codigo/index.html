@@ -1,0 +1,654 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Steve Moya - Personal Portfolio Web</title>
+  <!--favicon-img--> 
+   <link rel="icon" type="image/png" href="/images/logo.svg">
+   
+   <!--main css file should not be removed -->
+    <link rel="stylesheet" href="css/index.css">
+    <!--main css file-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js" defer></script>
+    </script>
+    <script src="js/jquery.min.js" defer></script>
+    <script src="js/particles.js"></script>
+    <script src="js/particles.min.js"></script>
+    <script src="js/index.js"defer ></script>
+    <meta name="description" content="Steve Moya - Personal Web Personal, Este es mi portafolio con mucho amor y dedicacion" />
+	<meta name="keywords" content="blog, business card, creative, creative portfolio, cv, online resume, personal, portfolio, professional cv, responsive portfolio, resume, vcard" />
+	<meta name="author" content="Steve Moya Cepeda" />
+
+</head>
+<body>
+    <!--contains all the div-->
+    <div id="all">
+    <!--mouse  follower-->
+        <div class="cursor"></div>
+    <!--loader-->
+        <div id="loader">
+            <div class="progressbar-container">
+                <div class="outer-box">
+                    <div class="inner-box"><img class="loader__icon" src="images/logo.svg" alt="loader"></div>
+                    <svg xmls="https://www.w3.org/2000/svg" version="1.1" width="200" height="200"
+                    >
+                    <defs>
+                        <linearGradient id="gradientColor">
+                            <stop offset="0%" stop-color="#fff" />
+                            <stop offset="100%" stop-color="#202020" />
+                        </linearGradient>
+                    </defs>
+                    <circle cx="100" cy="100" r="80" stroke-linecap="round"/>
+                    </svg>
+                </div>
+                
+            </div>
+            
+
+            <span class="color">Cargando</span>
+            
+        </div> 
+    <!--link-screen-->
+        <div id="breaker">
+        </div>
+        <div id="breaker-two">
+        </div>
+        <!--Main-Section-->
+        <!--Navigator-fullscreen-->
+        <div id="navigation-content">
+            <div class="logo">
+                <a href="#">
+                <img src="images/nav-logo.svg" alt="logo" >
+            </a>
+            </div>
+            <div class="navigation-close">
+                <span class="close-first"></span>
+                <span class="close-second"></span>
+            </div>
+            <div class="navigation-links">
+                <a href="#" data-text="INICIO" id="home-link" >INICIO</a>
+                <a href="#" data-text="YO" id="about-link" >SOBRE MI</a>
+                <a href="#" data-text="BLOG" id="blog-link" >BLOG</a>
+                <a href="#" data-text="PORTFOLIO" id="portfolio-link" >PORTFOLIO</a>
+                <a href="#" data-text="CONTACTO" id="contact-link" >CONTACTO</a>
+            </div>
+        </div>
+        <!--Navigator-Fullscreen END-->
+          <!--Home Page-->
+        <!--Menubar-->
+        <div id="navigation-bar">
+            <img loading="lazy" src="images/logo.svg" alt="logo">
+            <div class="menubar">
+                <span class="first-span"></span>
+                <span class="second-span"></span>
+                <span class="third-span"></span>
+            </div>
+        </div>
+        <!--Menubar End-->
+          <!--Header-->
+        <div id="header">
+            <div id="particles"></div>
+              <!--Social Media Links-->
+            </span><div class="social-media-links">
+               <a href="https://www.instagram.com/steve_moya_cepeda/" target="_blank"><img src="images/instagram-icon.svg" class="social-media" alt="instagram-logo"></a> <!--instagram -->
+                <a href="https://www.facebook.com/steven.cepeda.35/" target="_blank"><img src="images/facebook-icon.svg" class="social-media" alt="facebook-logo"></a>
+                <a href="https://www.linkedin.com/in/steve-moya-cepeda-549469227/" target="_blank"><img src="images/linkedin-icon.svg" class="social-media" alt="linkedin-logo"></a> 
+                <a href="https://github.com/SteveMoya" target="_blank"><img src="images/github-icon.svg" class="social-media" alt="github-logo"></a> 
+                
+            </div>
+            <!--Social Media Links end-->
+            <div class="header-content">
+                <div class="header-content-box">
+                <div class="firstline"><span class="color">Steve </span>Moya</div>
+                <div class="secondline">
+                Soy
+            <span class="txt-rotate color" data-period="1200"data-rotate='[ " Diseñador.", " Fotógrafo.", " Marketer." ]'></span>
+            <span class="slash">|</span>
+        </div>
+                    <div class="contact">
+                <a href="Stevenmc2015@hotmail.com" target="_blank"><img src="images/Mail.svg" alt="email-pic" class="contactpic"></a><!--Your email Id write in place of "#"-->
+                <a href="Tel:#+1(849)751-1849" target="_blank"><img src="images/call-icon.svg" alt="phone-pic" class="contactpic"></a><!--Your telephone number Id write in place of "#"-->
+                    </div>    
+            </div>
+            </div>
+            <!--header image-->
+            <div class="header-image ">
+            <img src="images/Steve-Moya.webp" alt="Steve-moya">
+            
+            </div>
+            <!--header image end-->
+        </div>
+           <!--Header End-->
+        <!--HomePage End-->
+        <!--Main-Section End-->
+        <!--about-->
+        <div id="about">
+            <div class="color-changer">
+            <div class="color-panel">
+                <img loading="lazy" src="images/gear.svg" alt="">
+            </div>
+            <div class="color-selector">
+                <div class="heading">Cambia el Color</div>
+                <div class="colors">
+                    <ul >
+                    <li>
+                        <a href="#0" class="color-red " title="color-red"></a>
+                    </li>
+                    <li>
+                        <a href="#0" class="color-purple" title="color-purple"></a>
+                    </li>
+                    <li>
+                        <a href="#0" class="color-malt" title="color-malt"></a>
+                    </li>
+                    <li>
+                        <a href="#0" class="color-green" title="color-green"></a>
+                    </li>
+                    <li>
+                        <a href="#0" class="color-blue" title="color-blue"></a>
+                    </li>
+                    <li>
+                        <a href="#0" class="color-orange" title="color-orange"></a>
+                    </li>
+                    </ul>
+                </div>
+            </div>
+            </div>
+            <!--about content-->
+            <div id="about-content">
+                <div class="about-header">
+                    Sobre <span class="color">Mi</span>
+                    <span class ="header-caption">Conoce <span class="color"> Me.</span></span>
+                </div>
+                <div class="about-main">
+            <div class="about-first-paragraph wow">
+            <!--about description-->
+               <span class="about-first-line">
+                    Soy un
+                    <span class="color">Pionero</span>
+                    En la tendencia de el Marketing 5.0 en Republica Dominicana </span>
+                     <br>
+               <span class="about-second-line">Con mas 2 años de experiencia en el área de marketing. 
+                Me considero un apasionado en el aprendizaje entorno al área de productos o servicios y satisfacer las necesidades de los clientes.</span>
+               <div class="cv">
+                <a href="cv/CV-Steve-Moya-Cepeda.pdf" target="_blank" alt="curriculun vitae - cv"><button>Descarga Mi <span class="colors">CV</span></button></a>
+            </div>
+            </div>
+            <!--about picture-->
+            <div class="about-img">
+                <img loading="lazy" src="images/Yo.webp" alt="mi imagen">
+            </div>
+            </div>
+    
+            </div>
+            <!--services start-->
+            <div id="services">
+                <div class="color-changer">
+                    <div class="color-panel">
+                        <img loading="lazy" src="images/gear.svg" alt="">
+                    </div>
+                    <div class="color-selector">
+                        <div class="heading">Cambia el Color</div>
+                        <div class="colors">
+                            <ul >
+                            <li>
+                                <a href="#0" class="color-red " title="color-red"></a>
+                            </li>
+                            <li>
+                                <a href="#0" class="color-purple" title="color-purple"></a>
+                            </li>
+                            <li>
+                                <a href="#0" class="color-malt" title="color-malt"></a>
+                            </li>
+                            <li>
+                                <a href="#0" class="color-green" title="color-green"></a>
+                            </li>
+                            <li>
+                                <a href="#0" class="color-blue" title="color-blue"></a>
+                            </li>
+                            <li>
+                                <a href="#0" class="color-orange" title="color-orange"></a>
+                            </li>
+                            </ul>
+                        </div>
+                    </div>
+                    </div>
+            <!--services header-->
+                    <div class="services-heading wow">
+                        <span class="color">Mis</span> Conocimientos
+                    </div>
+            <!--services header end-->
+            <!--services content-->
+                    <div class="services-content">
+                           <div class="service-one service wow">
+                               <div class="service-img">
+                               <img loading="lazy" src="images/coding.svg" alt="service-one">
+                               </div>
+                               <div class="service-description">
+                                <h2>Diseño Web</h2>
+                                <p>Habilidades en la creación de diseños web atractivos.</p>
+                               </div>
+                           </div>
+                           <div class="service-two service wow">
+                               <div class="service-img">
+                               <img loading="lazy" src="images/socialmedia.svg" alt="service-two">
+                               </div>
+                               <div class="service-description">
+                                <h2>Social Media</h2>
+                                <p>Habilidades para la gestión de comunidades para mejorar el compromiso de los clientes.</p>
+                               </div>
+                           </div>
+                           <div class="service-three service wow">
+                            <div class="service-img">
+                               <img loading="lazy" src="images/creative.svg" alt="service-three">
+                            </div>
+                            <div class="service-description">
+                                <h2>Diseño Creativo</h2>
+                                <p>Habilidades en la creación de diseños atractivos para la comunicación visual.</p>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            <!--services content end-->
+            <!--services end-->
+            <div id="skills">
+                <div class="skills-header">
+                     Mis <span class="color"> Hablilidades</span>
+                </div>
+                <div class="skills-content " style="text-align: center;">
+                    <div class="skill-html skill">
+                        <div class="skill-text">
+                    <div class="html">
+                        HTML/CSS
+                    </div>
+                        </div>
+                    <div class="html-prog wow prog">
+                 <div class="html-progress wow">95%</div>
+                    </div>
+                    </div>
+                    <div class="skill-html skill">
+                        <div class="skill-text">
+                    <div class="html">
+                      Google Analytics
+                    </div>
+                        </div>
+                    <div class="html-prog wow prog">
+                 <div class="js-progress wow">90%</div>
+                    </div>
+                    </div>
+                    <div class="skill-html skill">
+                        <div class="skill-text">
+                    <div class="html">
+                        Social Media
+                    </div>
+                        </div>
+                    <div class="html-prog wow prog">
+                 <div class="adobe-progress wow">83%</div>
+                    </div>
+                    </div>
+                    <div class="skill-html skill">
+                        <div class="skill-text">
+                    <div class="html">
+                        Adobe Creative Cloud
+                    </div>
+                        </div>
+                    <div class="html-prog wow prog">
+                 <div class="php-progress wow">87%</div>
+                    </div>
+                    </div>
+                    <div class="skill-html skill">
+                        <div class="skill-text">
+                    <div class="html">
+                        Microsoft Office
+                    </div>
+                        </div>
+                    <div class="html-prog wow prog">
+                 <div class="jquery-progress wow">94%</div>
+                    </div>
+                    </div>
+                    <div class="skill-html skill">
+                        <div class="skill-text">
+                    <div class="html">
+                        SEO
+                    </div>
+                        </div>
+                    <div class="html-prog wow prog">
+                 <div class="seo-progress wow">84%</div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+    <!--copyright-section You Can Remove After Downloading-->
+            <div class="footer">
+             <div class="footer-text">
+                 <p>© Steve Moya Cepeda</p> 
+             </div>
+            </div>
+    <!--copyright-section-->
+        </div>
+        <!--about end-->
+        <!--portfolio-->
+        <div id="portfolio">
+            <div class="color-changer">
+                <div class="color-panel">
+                    <img loading="lazy" src="images/gear.svg" alt="">
+                </div>
+                <div class="color-selector">
+                    <div class="heading">Cambia el Color</div>
+                    <div class="colors">
+                        <ul >
+                        <li>
+                            <a href="#0" class="color-red " title="color-red"></a>
+                        </li>
+                        <li>
+                            <a href="#0" class="color-purple" title="color-purple"></a>
+                        </li>
+                        <li>
+                            <a href="#0" class="color-malt" title="color-malt"></a>
+                        </li>
+                        <li>
+                            <a href="#0" class="color-green" title="color-green"></a>
+                        </li>
+                        <li>
+                            <a href="#0" class="color-blue" title="color-blue"></a>
+                        </li>
+                        <li>
+                            <a href="#0" class="color-orange" title="color-orange"></a>
+                        </li>
+                        </ul>
+                    </div>
+                </div>
+                </div>
+            <div class="portfolio-header"> <span class="color"> Mi </span> Portfolio
+            <span class ="header-caption"> Mira un poco de mis <span class="color"> Trabajos</span></span></div>
+             <div id="portfolio-content">
+                 <div class="portfolio portfolio-first">
+                     <div class="portfolio-image">
+                        <img loading="lazy" src="images/portfolio-first.webp" alt="portfolio-first">
+                     </div>
+                     <div class="portfolio-text">
+                         <h2>Marketing</h2>
+                         <p>Todavia Trabajando en ello</p>
+                         <div class="button"><a href="home_proyectos/Marketing.html"><button><span class="index"> Ver <i class="gg-arrow-right"></i></span></button></a></div>
+                     </div>
+                 </div>
+                 <div class="portfolio portfolio-second">
+                    <div class="portfolio-image">
+                        <img loading="lazy" src="images/portfolio-second.webp" alt="portfolio-second">
+                    </div>
+                    <div class="portfolio-text">
+                        <h2>Fotografía</h2>
+                        <p>Puedes darle un vistazo pero todavia estoy Trabajando en ello</p>
+                        <div class="button"><a href="home_proyectos/Fotografia.html"><button><span class="index"> Ver <i class="gg-arrow-right"></i></span></button></a></div>
+                    </div>
+                </div>
+             
+                <div class="portfolio portfolio-third">
+                    <div class="portfolio-image">
+                        <img loading="lazy" src="images/portfolio-third.webp" alt="portfolio-third">
+                    </div>
+                    <div class="portfolio-text">
+                        <h2>Web</h2>
+                        <p>Puedes darle un vistazo pero todavia estoy Trabajando en ello</p>
+                        <div class="button"><a href="home_proyectos/Web.html"><button><span class="index"> Ver <i class="gg-arrow-right"></i></span></button></a></div>
+                    </div>
+                </div>
+                <div class="portfolio portfolio-fourth">
+                    <div class=" portfolio-image">
+                        <img loading="lazy" src="images/portfolio-fourth.webp" alt="portfolio-fourth">
+                    </div>
+                    <div class="portfolio-text">
+                        <h2>Diseño Gráfico</h2>
+                        <p>Todavia Trabajando en ello</p>
+                        <div class="button"><a href="home_proyectos/Diseño-Grafico.html"><button><span class="index"> Ver <i class="gg-arrow-right"></i></span></button></a></div>
+                    </div>
+                </div>
+                 </div>
+                    <!--copyright-section You Can Remove After Downloading-->
+            <div class="footer">
+                <div class="footer-text">
+                    <p>© Steve Moya Cepeda</p>
+                </div>
+               </div>
+       <!--copyright-section-->
+             </div>
+        <!--portfolio end-->
+        <!--blog-->
+        <div id="blog">
+            <div class="color-changer">
+                <div class="color-panel">
+                    <img loading="lazy" src="images/gear.svg" alt="">
+                </div>
+                <div class="color-selector">
+                    <div class="heading">Cambia el Color</div>
+                    <div class="colors">
+                        <ul >
+                        <li>
+                            <a href="#0" class="color-red " title="color-red"></a>
+                        </li>
+                        <li>
+                            <a href="#0" class="color-purple" title="color-purple"></a>
+                        </li>
+                        <li>
+                            <a href="#0" class="color-malt" title="color-malt"></a>
+                        </li>
+                        <li>
+                            <a href="#0" class="color-green" title="color-green"></a>
+                        </li>
+                        <li>
+                            <a href="#0" class="color-blue" title="color-blue"></a>
+                        </li>
+                        <li>
+                            <a href="#0" class="color-orange" title="color-orange"></a>
+                        </li>
+                        </ul>
+                    </div>
+                </div>
+                </div>
+        <div class="blog-header">Mi Blog</span>
+            <span class ="header-caption"> Mis Anteriores <span class="color"> posteos de blog.</span></span></div>
+            <div class="blog-content">
+                 <div class="blogs">
+                     <a href="#">
+                     <div class="img">
+                        <!--<img loading="lazy" src="images/post-one.webp" alt="blog-one">-->
+                        <img loading="lazy" src="images/marketing5.0.webp" alt="blog-one">
+                        <div class="blog-date">Proxi.</div>
+                     </div>
+                     <div class="blog-text">
+                         <h3>El Marketing 5.0</h3>
+                         <p>Todavia Trabajando en el blog</p>
+                     </div></a>
+                 </div>      
+                 <div class="blogs">
+                    <a href="#">
+                    <div class="img">
+                       <!-- <img loading="lazy" src="images/post-two.webp" alt="blog-two">-->
+                       <img loading="lazy" src="images/22leyes.webp" alt="blog-two"> 
+                       <div class="blog-date">16 Jan,20</div>
+                    </div>
+                    <div class="blog-text">
+                        <h3>Las 22 leyes del Marketing</h3>
+                        <p>Todavia Trabajando en el blog</p>
+                    </div></a>
+                </div>      
+                <div class="blogs">
+                    <a href="#">
+                    <div class="img">
+                       <!-- <img loading="lazy" src="images/post-three.webp" alt="blog-three"> -->
+                       <img loading="lazy" src="images/marketing4.0-v.webp" alt="blog-three">
+                        <div class="blog-date">Proxi.</div>
+                    </div>
+                    <div class="blog-text">
+                        <h3>Marketing 4.0</h3>
+                        <p>Todavia Trabajando en el blog</p>
+                    </div></a>
+                </div>
+                <div class="blogs">
+                    <a href="#">
+                    <div class="img">
+                        <img loading="lazy" src="images/post-three.webp" alt="blog-four">
+                        <div class="blog-date">Proxi.</div>
+                    </div>
+                    <div class="blog-text">
+                        <h3>El Café </h3>
+                        <p>Todavia Trabajando en el blog</p>
+                    </div></a>
+                </div>  
+                <div class="blogs">
+                    <a href="#">
+                    <div class="img">
+                        <img loading="lazy" src="images/post-five.webp" alt="blog-five">
+                        <div class="blog-date">1 Jun,19</div>
+                    </div>
+                    <div class="blog-text">
+                        <h3>El trabajo desde Casa</h3>
+                        <p>Todavia Trabajando en el blog</p>
+                    </div></a>
+                </div>  
+                <div class="blogs">
+                    <a href="#">
+                    <div class="img">
+                        <img loading="lazy" src="images/post-six.webp" alt="blog-six">
+                        <div class="blog-date">28 Feb,19</div>
+                    </div>
+                    <div class="blog-text">
+                        <h3>Mejoras de negocio</h3>
+                        <p>Todavia Trabajando en el blog</p>
+                    </div></a>
+                </div>
+                <div class="blogs">
+                    <a href="#">
+                    <div class="img">
+                        <img loading="lazy" src="images/post-six.webp" alt="blog-seven">
+                        <div class="blog-date">** *,**</div>
+                    </div>
+                    <div class="blog-text">
+                        <h3>Proximamente</h3>
+                        <p>Todavia Trabajando en el blog</p>
+                    </div></a>
+                </div>
+                
+                
+
+                    
+            </div>
+               <!--copyright-section You Can Remove After Downloading-->
+               <div class="footer">
+                <div class="footer-text">
+                    <p>© Steve Moya Cepeda</p>
+                </div>
+               </div>
+       <!--copyright-section-->
+        </div>
+        <!--blog end-->
+        <!--contact-->
+     <div id="contact">
+        <div class="color-changer">
+            <div class="color-panel">
+                <img loading="lazy" src="images/gear.svg" alt="">
+            </div>
+            <div class="color-selector">
+                <div class="heading">Cambia el Color</div>
+                <div class="colors">
+                    <ul >
+                    <li>
+                        <a href="#0" class="color-red " title="color-red"></a>
+                    </li>
+                    <li>
+                        <a href="#0" class="color-purple" title="color-purple"></a>
+                    </li>
+                    <li>
+                        <a href="#0" class="color-malt" title="color-malt"></a>
+                    </li>
+                    <li>
+                        <a href="#0" class="color-green" title="color-green"></a>
+                    </li>
+                    <li>
+                        <a href="#0" class="color-blue" title="color-blue"></a>
+                    </li>
+                    <li>
+                        <a href="#0" class="color-orange" title="color-orange"></a>
+                    </li>
+                    </ul>
+                </div>
+            </div>
+            </div>
+         <div class="contact-header">Contacta <span class="color"> Me</span>
+        <div class="contact-header-caption"> <span class="color"> Escribe</span> Me.</div></div>
+        <div class="contact-content">
+            <!--Contact form-->
+             <div class="contact-form">
+                 <div class="form-header">
+                     Enviame un mensaje
+                 </div>
+                 <form id="myForm" action="https://formsubmit.co/stevenmc2015@hotmail.com" method="POST" target="_blank">
+                    <div class="input-line">
+                        <input name="name"  id="name" type="text" placeholder="Nombre" class="input-name">
+                        <input name="email" id="email" type="email" placeholder="E-mail"  class="input-name">
+                    </div>
+                    <input type="text" id="subject" placeholder="Asunto" class="input-subject">
+                    <textarea name="message" id ="body" class="input-textarea" placeholder="Mensaje"></textarea>
+                    <button class="btn" type="submit" id ="submit" value="Enviar">Enviar</button>
+                    
+                 </form>
+               
+             </div>
+            <!--Contact form-->
+            <!--Contact information-->
+             <div class="contact-info">
+                <div class="contact-info-header">
+                    Informacion de Contacto
+                </div>
+                <div class="contact-info-content">
+                <div class="contect-info-content-line">
+                    <img loading="lazy" src="./images/icon-name.svg" class="icon" alt="name-icon">
+                    <div class="contact-info-icon-text">
+                        <h6>Mi Nombre</h6>
+                        <p>Steve Moya Cepeda</p>
+                  </div>
+                </div>
+                <div class="contect-info-content-line">
+                  <img loading="lazy" src="./images/location.svg" class="icon" alt="location-icon">
+                  <div class="contact-info-icon-text">
+                      <h6>Ubicacion</h6>
+                      <p>Santo Domingo, Republica Dominicana</p>
+                </div>
+              </div>
+              <div class="contect-info-content-line">
+                  <img loading="lazy" src="./images/call.svg" class="icon" alt="phone-icon">
+                  <div class="contact-info-icon-text">
+                      <h6>Mi Numero</h6>
+                      <p>+1 (849) 751-1849</p>
+                </div>
+              </div>
+              
+              <div class="contect-info-content-line">
+                  <img loading="lazy" src="./images/@.svg" class="icon" alt="email-icon">
+                  <div class="contact-info-icon-text">
+                      <h6>Mi Email</h6>
+                      <p>Stevenmc2015@hotmail.com</p>
+                </div>
+              </div>
+                </div>
+            <!--Contact information end-->
+           </div>
+        </div>
+                    <!--copyright-section You Can Remove After Downloading-->
+                    <div class="footer">
+                        <div class="footer-text">
+                            <p>© Steve Moya Cepeda</p>
+                        </div>
+                       </div>
+               <!--copyright-section-->
+     </div>
+        <!--contact end-->
+    </div>
+    <!--all the divisions-->
+     <!--Colocar los defer-->
+    <!--particles script-->
+    <script>
+ particlesJS("particles", {"particles":{"number":{"value":120,"density":{"enable":true,"value_area":800}},"color":{"value":"#ffffff"},"shape":{"type":"circle","stroke":{"width":0,"color":"#000000"},"polygon":{"nb_sides":5},"image":{"src":"img/github.svg","width":100,"height":100}},"opacity":{"value":0.5,"random":false,"anim":{"enable":true,"speed":1,"opacity_min":0.1,"sync":false}},"size":{"value":3,"random":true,"anim":{"enable":true,"speed":0,"size_min":0.1,"sync":false}},"line_linked":{"enable":false,"distance":0,"color":"#ffffff","opacity":0.24463576890600452,"width":1.2626362266116362},"move":{"enable":true,"speed":3,"direction":"none","random":false,"straight":false,"out_mode":"out","bounce":false,"attract":{"enable":false,"rotateX":600,"rotateY":1200}}},"interactivity":{"detect_on":"canvas","events":{"onhover":{"enable":false,"mode":"grab"},"onclick":{"enable":true,"mode":"push"},"resize":true},"modes":{"grab":{"distance":400,"line_linked":{"opacity":1}},"bubble":{"distance":400,"size":40,"duration":2,"opacity":8,"speed":3},"repulse":{"distance":200,"duration":0.4},"push":{"particles_nb":4},"remove":{"particles_nb":2}}},"retina_detect":true});
+</script>
+</body>
