@@ -1,6 +1,6 @@
 # Portafolio Personal 🤵
 
-![portafolio-steve-moya vercel app_ (1)](https://github.com/SteveMoya/Portafolio.github.io/assets/114698709/6f035f7a-25c3-49e8-9ec4-6f2b722e139d)
+![stevemoya me_](https://github.com/SteveMoya/Portafolio/assets/114698709/f4dd59b4-0153-444b-920f-698cfea4f566)
 
 
 ## Ejemplo en vivo
