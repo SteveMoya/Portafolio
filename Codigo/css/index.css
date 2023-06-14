@@ -1328,7 +1328,7 @@ form button:hover{
     padding:15px;
     font-family: 'Poppins', sans-serif;
 }
-.contact-info-icon-text h6{
+.contact-info-icon-text h4{
     font-size: 15px;
     opacity: .8;
 }
@@ -2009,7 +2009,7 @@ For devices with smaller width like mobile phone
                 padding:15px;
                 font-family: 'Poppins', sans-serif;
             }
-            .contact-info-icon-text h6{
+            .contact-info-icon-text h4{
                 font-size: 15px;
                 opacity: .8;
             }
@@ -2028,7 +2028,6 @@ For devices with smaller width like mobile phone
 for tabs and large phones
 
 */
-
 
 
 @media all and (max-width: 1025px) and (min-width: 551px){

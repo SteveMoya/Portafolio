@@ -1,21 +1,22 @@
 
 <!doctype html>
-<html lang=en>
+<html lang=es>
 <head>
 <meta charset=UTF-8>
 <meta name=viewport content="width=device-width,initial-scale=1">
 <title>Steve Moya - Personal Portfolio Web</title>
-<link rel=icon type=image/png href=images/logo.svg>
+<link title=logo rel=icon type=image/png href=/images/logo.svg alt=logo>
 <link rel=stylesheet href=css/index.css>
-<script src=https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js defer></script>
-
-<script src=js/jquery.min.js defer></script>
+<script src=js/gsap.js defer></script>
+<script src=js/jquery.js defer></script>
 <script src=js/particles.js></script>
 <script src=js/particles.min.js></script>
 <script src=js/index.js defer></script>
-<meta name=description content="Steve Moya - Personal Web Personal, Este es mi portafolio con mucho amor y dedicacion">
+<meta name=description content="Steve Moya - Personal Web Personal, Este es mi portafolio con mucho amor y dedicacion.Hecho por un marketero amante a la tecnologia">
 <meta name=keywords content="blog, business card, creative, creative portfolio, cv, online resume, personal, portfolio, professional cv, responsive portfolio, resume, vcard">
 <meta name=author content="Steve Moya Cepeda">
+<meta property=og:title content="Steve Moya - Personal Web Personal, Este es mi portafolio con mucho amor y dedicacion">
+<meta name=robots content="index, nosnippet">
 </head>
 <body>
 <div id=all>
@@ -23,7 +24,7 @@
 <div id=loader>
 <div class=progressbar-container>
 <div class=outer-box>
-<div class=inner-box><img class=loader__icon src=images/logo.svg alt=loader></div>
+<div title=icon-loader class=inner-box><img class=loader__icon src=images/logo.svg alt=loader></div>
 <svg xmls=https://www.w3.org/2000/svg version=1.1 width=200 height=200>
 <defs>
 <linearGradient id=gradientColor>
@@ -43,8 +44,8 @@
 </div>
 <div id=navigation-content>
 <div class=logo>
-<a href=#>
-<img src=images/nav-logo.svg alt=logo>
+<a title=logo href=#>
+<img title=logo src=images/nav-logo.svg alt=logo>
 </a>
 </div>
 <div class=navigation-close>
@@ -52,15 +53,15 @@
 <span class=close-second></span>
 </div>
 <div class=navigation-links>
-<a href=# data-text=INICIO id=home-link>INICIO</a>
-<a href=# data-text=YO id=about-link>SOBRE MI</a>
-<a href=# data-text=BLOG id=blog-link>BLOG</a>
-<a href=# data-text=PORTFOLIO id=portfolio-link>PORTFOLIO</a>
-<a href=# data-text=CONTACTO id=contact-link>CONTACTO</a>
+<a title=Inicio href=# data-text=INICIO id=home-link>INICIO</a>
+<a title="Sobre Mi" href=# data-text=YO id=about-link>SOBRE MI</a>
+<a title=Blog href=# data-text=BLOG id=blog-link>BLOG</a>
+<a title=Portfolio href=# data-text=PORTFOLIO id=portfolio-link>PORTFOLIO</a>
+<a title=Contacto href=# data-text=CONTACTO id=contact-link>CONTACTO</a>
 </div>
 </div>
 <div id=navigation-bar>
-<img loading=lazy src=images/logo.svg alt=logo>
+<img title=logo loading=lazy src=images/logo.svg alt=logo>
 <div class=menubar>
 <span class=first-span></span>
 <span class=second-span></span>
@@ -70,55 +71,55 @@
 <div id=header>
 <div id=particles></div>
 <div class=social-media-links>
-<a href=https://www.instagram.com/steve_moya_cepeda/ target=_blank><img src=images/instagram-icon.svg class=social-media alt=instagram-logo></a>
-<a href=https://www.facebook.com/steven.cepeda.35/ target=_blank><img src=images/facebook-icon.svg class=social-media alt=facebook-logo></a>
-<a href=https://www.linkedin.com/in/steve-moya-cepeda-549469227/ target=_blank><img src=images/linkedin-icon.svg class=social-media alt=linkedin-logo></a>
-<a href=https://github.com/SteveMoya target=_blank><img src=images/github-icon.svg class=social-media alt=github-logo></a>
+<a title=Instagram-link href=https://www.instagram.com/steve_moya_cepeda/ target=_blank><img title=instagram-icon src=images/instagram-icon.svg class=social-media alt=instagram-logo></a>
+<a title=Facebook-link href=https://www.facebook.com/steven.cepeda.35/ target=_blank><img title=facebook-icon src=images/facebook-icon.svg class=social-media alt=facebook-logo></a>
+<a title=Linkedin-link href=https://www.linkedin.com/in/steve-moya-cepeda-549469227/ target=_blank><img title=linkedin-icon src=images/linkedin-icon.svg class=social-media alt=linkedin-logo></a>
+<a title=Github-link href=https://github.com/SteveMoya target=_blank><img title=github-icon src=images/github-icon.svg class=social-media alt=github-logo></a>
 </div>
 <div class=header-content>
 <div class=header-content-box>
-<div class=firstline><span class=color>Steve </span>Moya</div>
+<h1 class=firstline><span class=color>Steve </span>Moya</h1>
 <div class=secondline>
 Soy
 <span class="txt-rotate color" data-period=1200 data-rotate='[ " Diseñador.", " Fotógrafo.", " Marketer." ]'></span>
 <span class=slash>|</span>
 </div>
 <div class=contact>
-<a href=Stevenmc2015@hotmail.com target=_blank><img src=images/Mail.svg alt=email-pic class=contactpic></a>
-<a href=Tel:#+1(849)751-1849 target=_blank><img src=images/call-icon.svg alt=phone-pic class=contactpic></a>
+<a title=E-mail-link href=Stevenmc2015@hotmail.com target=_blank><img title=mail-icon src=images/Mail.svg alt=email-pic class=contactpic></a>
+<a title=Tel-link href=Tel:#+1(849)751-1849 target=_blank><img title=call-icon src=images/call-icon.svg alt=phone-pic class=contactpic></a>
 </div>
 </div>
 </div>
 <div class=header-image>
-<img src=images/Steve-Moya.webp alt=Steve-moya>
+<img title=Steve-Moya-Cepeda src=images/Steve-Moya.webp alt=Steve-moya>
 </div>
 </div>
 <div id=about>
 <div class=color-changer>
 <div class=color-panel>
-<img loading=lazy src=images/gear.svg alt="">
+<img title=cambio-color loading=lazy src=images/gear.svg alt=cambio-color>
 </div>
 <div class=color-selector>
 <div class=heading>Cambia el Color</div>
 <div class=colors>
 <ul>
 <li>
-<a href=#0 class=color-red title=color-red></a>
+<a title=Cambio-color href=#0 class=color-red title=color-red></a>
 </li>
 <li>
-<a href=#0 class=color-purple title=color-purple></a>
+<a title=Cambio-color href=#0 class=color-purple title=color-purple></a>
 </li>
 <li>
-<a href=#0 class=color-malt title=color-malt></a>
+<a title=Cambio-color href=#0 class=color-malt title=color-malt></a>
 </li>
 <li>
-<a href=#0 class=color-green title=color-green></a>
+<a title=Cambio-color href=#0 class=color-green title=color-green></a>
 </li>
 <li>
-<a href=#0 class=color-blue title=color-blue></a>
+<a title=Cambio-color href=#0 class=color-blue title=color-blue></a>
 </li>
 <li>
-<a href=#0 class=color-orange title=color-orange></a>
+<a title=Cambio-color href=#0 class=color-orange title=color-orange></a>
 </li>
 </ul>
 </div>
@@ -138,40 +139,40 @@ En la tendencia de el Marketing 5.0 en Republica Dominicana </span>
 <br>
 <span class=about-second-line>Con mas 2 años de experiencia en el área de marketing. Me considero un apasionado en el aprendizaje entorno al área de productos o servicios y satisfacer las necesidades de los clientes.</span>
 <div class=cv>
-<a href=cv/CV-Steve-Moya-Cepeda.pdf target=_blank alt="curriculun vitae - cv"><button>Descarga Mi <span class=colors>CV</span></button></a>
+<a title=Cv-Link href=cv/CV-Steve-Moya-Cepeda.pdf target=_blank alt="curriculun vitae - cv"><button>Descarga Mi <span class=colors>CV</span></button></a>
 </div>
 </div>
 <div class=about-img>
-<img loading=lazy src=images/Yo.webp alt="mi imagen">
+<img title=Steve-Moya-Cepeda loading=lazy src=images/Yo.webp alt=Steve-Moya-Cepeda>
 </div>
 </div>
 </div>
 <div id=services>
 <div class=color-changer>
 <div class=color-panel>
-<img loading=lazy src=images/gear.svg alt="">
+<img title=cambio-color loading=lazy src=images/gear.svg alt=cambio-color>
 </div>
 <div class=color-selector>
 <div class=heading>Cambia el Color</div>
 <div class=colors>
 <ul>
 <li>
-<a href=#0 class=color-red title=color-red></a>
+<a title=Cambio-color href=#0 class=color-red title=color-red></a>
 </li>
 <li>
-<a href=#0 class=color-purple title=color-purple></a>
+<a title=Cambio-color href=#0 class=color-purple title=color-purple></a>
 </li>
 <li>
-<a href=#0 class=color-malt title=color-malt></a>
+<a title=Cambio-color href=#0 class=color-malt title=color-malt></a>
 </li>
 <li>
-<a href=#0 class=color-green title=color-green></a>
+<a title=Cambio-color href=#0 class=color-green title=color-green></a>
 </li>
 <li>
-<a href=#0 class=color-blue title=color-blue></a>
+<a title=Cambio-color href=#0 class=color-blue title=color-blue></a>
 </li>
 <li>
-<a href=#0 class=color-orange title=color-orange></a>
+<a title=Cambio-color href=#0 class=color-orange title=color-orange></a>
 </li>
 </ul>
 </div>
@@ -183,7 +184,7 @@ En la tendencia de el Marketing 5.0 en Republica Dominicana </span>
 <div class=services-content>
 <div class="service-one service wow">
 <div class=service-img>
-<img loading=lazy src=images/coding.svg alt=service-one>
+<img title=Diseño-Web loading=lazy src=images/coding.svg alt=Diseño-Web>
 </div>
 <div class=service-description>
 <h2>Diseño Web</h2>
@@ -192,7 +193,7 @@ En la tendencia de el Marketing 5.0 en Republica Dominicana </span>
 </div>
 <div class="service-two service wow">
 <div class=service-img>
-<img loading=lazy src=images/socialmedia.svg alt=service-two>
+<img title=Social-Media loading=lazy src=images/socialmedia.svg alt=Social-Media>
 </div>
 <div class=service-description>
 <h2>Social Media</h2>
@@ -201,7 +202,7 @@ En la tendencia de el Marketing 5.0 en Republica Dominicana </span>
 </div>
 <div class="service-three service wow">
 <div class=service-img>
-<img loading=lazy src=images/creative.svg alt=service-three>
+<img title=Diseño-Creativo loading=lazy src=images/creative.svg alt=Diseño-Creativo>
 </div>
 <div class=service-description>
 <h2>Diseño Creativo</h2>
@@ -286,29 +287,29 @@ SEO
 <div id=portfolio>
 <div class=color-changer>
 <div class=color-panel>
-<img loading=lazy src=images/gear.svg alt="">
+<img title=cambio-color loading=lazy src=images/gear.svg alt=cambio-color>
 </div>
 <div class=color-selector>
 <div class=heading>Cambia el Color</div>
 <div class=colors>
 <ul>
 <li>
-<a href=#0 class=color-red title=color-red></a>
+<a title=Cambio-color href=#0 class=color-red title=color-red></a>
 </li>
 <li>
-<a href=#0 class=color-purple title=color-purple></a>
+<a title=Cambio-color href=#0 class=color-purple title=color-purple></a>
 </li>
 <li>
-<a href=#0 class=color-malt title=color-malt></a>
+<a title=Cambio-color href=#0 class=color-malt title=color-malt></a>
 </li>
 <li>
-<a href=#0 class=color-green title=color-green></a>
+<a title=Cambio-color href=#0 class=color-green title=color-green></a>
 </li>
 <li>
-<a href=#0 class=color-blue title=color-blue></a>
+<a title=Cambio-color href=#0 class=color-blue title=color-blue></a>
 </li>
 <li>
-<a href=#0 class=color-orange title=color-orange></a>
+<a title=Cambio-color href=#0 class=color-orange title=color-orange></a>
 </li>
 </ul>
 </div>
@@ -319,42 +320,42 @@ SEO
 <div id=portfolio-content>
 <div class="portfolio portfolio-first">
 <div class=portfolio-image>
-<img loading=lazy src=images/portfolio-first.webp alt=portfolio-first>
+<img title=Marketing loading=lazy src=images/portfolio-first.webp alt=Marketing>
 </div>
 <div class=portfolio-text>
 <h2>Marketing</h2>
 <p>Todavia Trabajando en ello</p>
-<div class=button><a href=home_proyectos/Marketing.html><button><span class=index> Ver <i class=gg-arrow-right></i></span></button></a></div>
+<div class=button><a title=Marketing-link href=home_proyectos/Marketing.html><button><span class=index> Ver <i class=gg-arrow-right></i></span></button></a></div>
 </div>
 </div>
 <div class="portfolio portfolio-second">
 <div class=portfolio-image>
-<img loading=lazy src=images/portfolio-second.webp alt=portfolio-second>
+<img title=Fotografía loading=lazy src=images/portfolio-second.webp alt=Fotografia>
 </div>
 <div class=portfolio-text>
 <h2>Fotografía</h2>
 <p>Puedes darle un vistazo pero todavia estoy Trabajando en ello</p>
-<div class=button><a href=home_proyectos/Fotografia.html><button><span class=index> Ver <i class=gg-arrow-right></i></span></button></a></div>
+<div class=button><a title=Fotografía-link href=home_proyectos/Fotografia.html><button><span class=index> Ver <i class=gg-arrow-right></i></span></button></a></div>
 </div>
 </div>
 <div class="portfolio portfolio-third">
 <div class=portfolio-image>
-<img loading=lazy src=images/portfolio-third.webp alt=portfolio-third>
+<img title=Web loading=lazy src=images/portfolio-third.webp alt=Web>
 </div>
 <div class=portfolio-text>
 <h2>Web</h2>
 <p>Puedes darle un vistazo pero todavia estoy Trabajando en ello</p>
-<div class=button><a href=home_proyectos/Web.html><button><span class=index> Ver <i class=gg-arrow-right></i></span></button></a></div>
+<div class=button><a title=Web-link href=home_proyectos/Web.html><button><span class=index> Ver <i class=gg-arrow-right></i></span></button></a></div>
 </div>
 </div>
 <div class="portfolio portfolio-fourth">
 <div class=portfolio-image>
-<img loading=lazy src=images/portfolio-fourth.webp alt=portfolio-fourth>
+<img title=Diseño-Gráfico loading=lazy src=images/portfolio-fourth.webp alt=Diseño-Gráfico>
 </div>
 <div class=portfolio-text>
 <h2>Diseño Gráfico</h2>
 <p>Todavia Trabajando en ello</p>
-<div class=button><a href=home_proyectos/Diseño-Grafico.html><button><span class=index> Ver <i class=gg-arrow-right></i></span></button></a></div>
+<div class=button><a title=Diseño-Gráfico-link href=home_proyectos/Diseño-Grafico.html><button><span class=index> Ver <i class=gg-arrow-right></i></span></button></a></div>
 </div>
 </div>
 </div>
@@ -367,29 +368,29 @@ SEO
 <div id=blog>
 <div class=color-changer>
 <div class=color-panel>
-<img loading=lazy src=images/gear.svg alt="">
+<img title=cambio-color loading=lazy src=images/gear.svg alt=cambio-color>
 </div>
 <div class=color-selector>
 <div class=heading>Cambia el Color</div>
 <div class=colors>
 <ul>
 <li>
-<a href=#0 class=color-red title=color-red></a>
+<a title=Cambio-color href=#0 class=color-red title=color-red></a>
 </li>
 <li>
-<a href=#0 class=color-purple title=color-purple></a>
+<a title=Cambio-color href=#0 class=color-purple title=color-purple></a>
 </li>
 <li>
-<a href=#0 class=color-malt title=color-malt></a>
+<a title=Cambio-color href=#0 class=color-malt title=color-malt></a>
 </li>
 <li>
-<a href=#0 class=color-green title=color-green></a>
+<a title=Cambio-color href=#0 class=color-green title=color-green></a>
 </li>
 <li>
-<a href=#0 class=color-blue title=color-blue></a>
+<a title=Cambio-color href=#0 class=color-blue title=color-blue></a>
 </li>
 <li>
-<a href=#0 class=color-orange title=color-orange></a>
+<a title=Cambio-color href=#0 class=color-orange title=color-orange></a>
 </li>
 </ul>
 </div>
@@ -399,9 +400,9 @@ SEO
 <span class=header-caption> Mis Anteriores <span class=color> posteos de blog.</span></span></div>
 <div class=blog-content>
 <div class=blogs>
-<a href=#>
+<a title=blog-link href=#>
 <div class=img>
-<img loading=lazy src=images/marketing5.0.webp alt=blog-one>
+<img title=Marketing-5.0 loading=lazy src=images/marketing5.0.webp alt=Marketing-5.0>
 <div class=blog-date>Proxi.</div>
 </div>
 <div class=blog-text>
@@ -410,9 +411,9 @@ SEO
 </div></a>
 </div>
 <div class=blogs>
-<a href=#>
+<a title=blog-link href=#>
 <div class=img>
-<img loading=lazy src=images/22leyes.webp alt=blog-two>
+<img title=22-Leyes-Marketing loading=lazy src=images/22leyes.webp alt=Las-22-Leyes-inmutables-del-marketing>
 <div class=blog-date>16 Jan,20</div>
 </div>
 <div class=blog-text>
@@ -421,9 +422,9 @@ SEO
 </div></a>
 </div>
 <div class=blogs>
-<a href=#>
+<a title=blog-link href=#>
 <div class=img>
-<img loading=lazy src=images/marketing4.0-v.webp alt=blog-three>
+<img title=marketing-4.0 loading=lazy src=images/marketing4.0-v.webp alt=marketing-4.0>
 <div class=blog-date>Proxi.</div>
 </div>
 <div class=blog-text>
@@ -432,9 +433,9 @@ SEO
 </div></a>
 </div>
 <div class=blogs>
-<a href=#>
+<a title=blog-link href=#>
 <div class=img>
-<img loading=lazy src=images/post-three.webp alt=blog-four>
+<img title=El-Café loading=lazy src=images/post-three.webp alt=Café>
 <div class=blog-date>Proxi.</div>
 </div>
 <div class=blog-text>
@@ -443,9 +444,9 @@ SEO
 </div></a>
 </div>
 <div class=blogs>
-<a href=#>
+<a title=blog-link href=#>
 <div class=img>
-<img loading=lazy src=images/post-five.webp alt=blog-five>
+<img title=Trabajo-desde-casa loading=lazy src=images/post-five.webp alt=Trabajo-desde-casa>
 <div class=blog-date>1 Jun,19</div>
 </div>
 <div class=blog-text>
@@ -454,9 +455,9 @@ SEO
 </div></a>
 </div>
 <div class=blogs>
-<a href=#>
+<a title=blog-link href=#>
 <div class=img>
-<img loading=lazy src=images/post-six.webp alt=blog-six>
+<img title=Mejoras-de-Negocios loading=lazy src=images/post-six.webp alt=Mejoras-de-Negocios>
 <div class=blog-date>28 Feb,19</div>
 </div>
 <div class=blog-text>
@@ -465,9 +466,9 @@ SEO
 </div></a>
 </div>
 <div class=blogs>
-<a href=#>
+<a title=blog-link href=#>
 <div class=img>
-<img loading=lazy src=images/post-six.webp alt=blog-seven>
+<img title=Proximamente loading=lazy src=images/post-six.webp alt=Proximamente>
 <div class=blog-date>** *,**</div>
 </div>
 <div class=blog-text>
@@ -485,29 +486,29 @@ SEO
 <div id=contact>
 <div class=color-changer>
 <div class=color-panel>
-<img loading=lazy src=images/gear.svg alt="">
+<img title=cambio-color loading=lazy src=images/gear.svg alt=cambio-color>
 </div>
 <div class=color-selector>
 <div class=heading>Cambia el Color</div>
 <div class=colors>
 <ul>
 <li>
-<a href=#0 class=color-red title=color-red></a>
+<a title=Cambio-color href=#0 class=color-red title=color-red></a>
 </li>
 <li>
-<a href=#0 class=color-purple title=color-purple></a>
+<a title=Cambio-color href=#0 class=color-purple title=color-purple></a>
 </li>
 <li>
-<a href=#0 class=color-malt title=color-malt></a>
+<a title=Cambio-color href=#0 class=color-malt title=color-malt></a>
 </li>
 <li>
-<a href=#0 class=color-green title=color-green></a>
+<a title=Cambio-color href=#0 class=color-green title=color-green></a>
 </li>
 <li>
-<a href=#0 class=color-blue title=color-blue></a>
+<a title=Cambio-color href=#0 class=color-blue title=color-blue></a>
 </li>
 <li>
-<a href=#0 class=color-orange title=color-orange></a>
+<a title=Cambio-color href=#0 class=color-orange title=color-orange></a>
 </li>
 </ul>
 </div>
@@ -536,30 +537,30 @@ Informacion de Contacto
 </div>
 <div class=contact-info-content>
 <div class=contect-info-content-line>
-<img loading=lazy src=./images/icon-name.svg class=icon alt=name-icon>
+<img title=name-icon loading=lazy src=./images/icon-name.svg class=icon alt=name-icon>
 <div class=contact-info-icon-text>
-<h6>Mi Nombre</h6>
+<h4>Mi Nombre</h4>
 <p>Steve Moya Cepeda</p>
 </div>
 </div>
 <div class=contect-info-content-line>
-<img loading=lazy src=./images/location.svg class=icon alt=location-icon>
+<img title=location-icon loading=lazy src=./images/location.svg class=icon alt=location-icon>
 <div class=contact-info-icon-text>
-<h6>Ubicacion</h6>
+<h4>Ubicacion</h4>
 <p>Santo Domingo, Republica Dominicana</p>
 </div>
 </div>
 <div class=contect-info-content-line>
-<img loading=lazy src=./images/call.svg class=icon alt=phone-icon>
+<img title=call-icon loading=lazy src=./images/call.svg class=icon alt=phone-icon>
 <div class=contact-info-icon-text>
-<h6>Mi Numero</h6>
+<h4>Mi Numero</h4>
 <p>+1 (849) 751-1849</p>
 </div>
 </div>
 <div class=contect-info-content-line>
-<img loading=lazy src=./images/@.svg class=icon alt=email-icon>
+<img title=email-icon loading=lazy src=./images/@.svg class=icon alt=email-icon>
 <div class=contact-info-icon-text>
-<h6>Mi Email</h6>
+<h4>Mi Email</h4>
 <p>Stevenmc2015@hotmail.com</p>
 </div>
 </div>
@@ -574,4 +575,5 @@ Informacion de Contacto
 </div>
 </div>
 <script>particlesJS("particles",{particles:{number:{value:120,density:{enable:!0,value_area:800}},color:{value:"#ffffff"},shape:{type:"circle",stroke:{width:0,color:"#000000"},polygon:{nb_sides:5},image:{src:"img/github.svg",width:100,height:100}},opacity:{value:.5,random:!1,anim:{enable:!0,speed:1,opacity_min:.1,sync:!1}},size:{value:3,random:!0,anim:{enable:!0,speed:0,size_min:.1,sync:!1}},line_linked:{enable:!1,distance:0,color:"#ffffff",opacity:.24463576890600452,width:1.2626362266116362},move:{enable:!0,speed:3,direction:"none",random:!1,straight:!1,out_mode:"out",bounce:!1,attract:{enable:!1,rotateX:600,rotateY:1200}}},interactivity:{detect_on:"canvas",events:{onhover:{enable:!1,mode:"grab"},onclick:{enable:!0,mode:"push"},resize:!0},modes:{grab:{distance:400,line_linked:{opacity:1}},bubble:{distance:400,size:40,duration:2,opacity:8,speed:3},repulse:{distance:200,duration:.4},push:{particles_nb:4},remove:{particles_nb:2}}},retina_detect:!0})</script>
-</body></html>
+</body>
+</html>
