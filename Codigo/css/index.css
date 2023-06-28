@@ -1764,6 +1764,8 @@ For devices with smaller width like mobile phone
             .portfolio-image{
                 height: 300px;
                 width: 90%;
+                object-fit: cover;
+                object-position: center;
             }
             #navigation-bar img{
                 height: 80px;
