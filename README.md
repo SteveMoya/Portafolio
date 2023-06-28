@@ -5,7 +5,7 @@
 
 ## Ejemplo en vivo
 
-[![URL-del-proyecto](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://stevemoya.me/)
+[![Website](https://img.shields.io/badge/Portafolio-000000?style=for-the-badge&logo=About.me&logoColor=white)](https://stevemoya.000webhostapp.com/)
 
 ## Descripción 📑
 
